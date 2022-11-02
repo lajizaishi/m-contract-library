@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        <Button type={"primary"} onClick={()=>{getData()}}>2322</Button>
+        <Button type={"primary"} onClick={()=>{getData()}}>发请求</Button>
       </div>
 
     </div>
