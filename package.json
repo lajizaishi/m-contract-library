@@ -11,15 +11,26 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
     "@types/node": "18.11.8",
-    "@types/react": "18.0.24",
-    "@types/react-dom": "18.0.8",
-    "antd": "^4.23.6",
     "es6-promise": "^4.2.8",
-    "express": "^4.18.2",
     "install": "^0.13.0",
-    "next": "13.0.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "4.8.4"
+    "typescript": "4.8.4",
+    "antd": "^4.24.0",
+    "express": "^4.18.2",
+    "firebase": "^5.5.5",
+    "next": "^7.0.2",
+    "next-redux-wrapper": "^2.0.0",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-redux": "^6.0.0",
+    "recompose": "^0.30.0",
+    "redux": "^4.0.1",
+    "webpack": "^4.23.0"
+  },
+  "devDependencies": {
+    "http-proxy-middleware": "^2.0.6"
+  },
+  "config": {
+    "host": "192.168.0.137",
+    "port": "3000"
   }
 }
